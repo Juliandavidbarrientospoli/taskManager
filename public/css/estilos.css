@@ -1,0 +1,115 @@
+/* Tipografía y Colores */
+body {
+    font-family: 'Roboto', sans-serif; /* Uso de Roboto para una apariencia moderna */
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Encabezados */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem; /* Uso de rem para tamaños de fuente */
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 1rem; /* Uso de rem para consistencia */
+}
+
+table thead {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+th, td {
+    padding: 0.9375rem; /* Aproximadamente 15px pero en rem */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: bold; /* Ajuste para visualización en negrita */
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mensajes de error */
+.errores {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 0.9375rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Botones y enlaces */
+.btn, .button {
+    display: inline-block;
+    padding: 0.75rem 1.5625rem; /* Aproximadamente 12px 25px en rem */
+    margin: 10px 0;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn:hover, .button:hover {
+    background-color: #1f6391;
+    transform: translateY(-2px);
+}
+
+.btn:active, .button:active {
+    transform: translateY(0);
+}
+
+/* Formularios */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Enlaces de acción */
+.action-links a {
+    margin-right: 10px;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
